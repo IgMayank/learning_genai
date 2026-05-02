@@ -1,0 +1,65 @@
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# ----------------------
+# Streamlit
+# ----------------------
+.streamlit/secrets.toml
+
+# ----------------------
+# Environment variables
+# ----------------------
+.env
+.env.*
+
+# ----------------------
+# Jupyter Notebooks
+# ----------------------
+.ipynb_checkpoints/
+
+# ----------------------
+# Logs & temp files
+# ----------------------
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# ----------------------
+# VS Code
+# ----------------------
+.vscode/
+
+# ----------------------
+# Data / PDFs (optional)
+# ----------------------
+# Uncomment if you don't want to push PDFs or datasets
+# Data/
+# Doc Files/
+
+# ----------------------
+# ML / Models / Large files
+# ----------------------
+*.pt
+*.pth
+*.onnx
+*.h5
+*.pkl
+
+# ----------------------
+# Build / cache
+# ----------------------
+build/
+dist/
+*.egg-info/
