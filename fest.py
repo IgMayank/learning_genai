@@ -40,7 +40,7 @@ Rules:
 """
 # ---------------- LLM ----------------
 llm = ChatGroq(
-    model="llama-3.3-70b-versatile"
+    model="llama-3.3-70b-versatile" , temperature=0.3
 )
 
 if "history" not in st.session_state:
